@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>About Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="styling.css">
+        <style>
+            section * {
+                margin: 0px;
+                padding: 0px;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                padding: 10px;
+            }
+            #index1 {
+                display: flex;
+                align-items: center;
+            }
+            #AboutMe {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            img {
+                padding: 10px;
+            }
+            #More {
+                background-color: rgb(93, 136, 201); 
+                color: white; 
+                text-decoration: none;
+            }
+            #More:hover {
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Lew Oscar Jay</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="My%20Story.html">My Story</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                </ul>
+                <a href="Contact%20Me.html">Contact Me</a>
+            </nav> 
+        </header>
+        <section id="index1">
+            <img src="images/home1.jpg" alt="" style="width: 50vw;">
+            <div id="AboutMe">
+                <h2>About Me</h2>
+                <h4>Education</h4>
+                <p>Bachelor in Engineering (CompSc), HKU</p>
+                <ul>
+                    <li>2019 - Present</li>
+                </ul>
+                <p>Bachelor in Science (Computer Science and Mathematics), University of Edinburgh</p>
+                <ul>
+                    <li>2019</li>
+                </ul>
+                <h4>Interests</h4>
+                <ol>
+                    <li>Programming</li>
+                    <li>Sports</li>
+                    <li>Stock trading</li>
+                    <li>Anime</li>
+                </ol>
+                <a id="More" href="My Story.html" style="margin: 10px; padding: 5px;">More About Me</a>
+            </div>
+        </section>
+    </body>
+</html>
